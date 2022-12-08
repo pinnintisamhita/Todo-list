@@ -1,0 +1,79 @@
+.main-div{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(230, 230, 117);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size:20px;
+}
+.center-div{
+    height:70vh;
+    width:25vw;
+    background-color: aliceblue;
+    border:1px solid black;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px gray;
+    
+    
+
+}
+.logo{
+    height:10vh;
+    width:5vw;
+    position: relative;
+    top:4px;
+}
+.center-div h1{
+    display: inline;
+    padding: 5px 5px;
+    margin:5px;
+    color: rgb(224, 224, 44);
+    text-shadow: 1px 1px 1pxv ;
+}
+.inside-div{
+    margin-top: 20px;
+    
+    
+}
+input{
+    text-align: center;
+    height:20px;
+    top:10px;
+    border:none;
+    background: transparent;
+    outline: none;
+    font-size: 15px;
+    width:60%;
+    border-bottom: 2px solid rgb(224, 224, 44) ;
+
+}
+button{
+    min-height: 30px;
+    width:30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(235, 235, 48);
+    font-size: 20px;
+    margin-left: 1px;
+    outline: none;
+}
+button:hover{
+    background-color: rgb(60, 238, 60);
+}
+ol li{
+    display: flex;
+    align-items: center;
+    padding:2px;
+
+}
+ol li button{
+    margin:4px;
+}
+ol li button:hover{
+  background-color: rgb(237, 48, 48);
+}
